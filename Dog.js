@@ -9,7 +9,7 @@ class Dog {
             <img src="" class="badge hide" id="badge">
             <style>
             .profile-pic {
-                background-image: url("${this.avatar}");
+                background-image: url(${this.avatar});
             }
             </style>
             <h2 id="name-age">${this.name}, ${this.age}</h2>
