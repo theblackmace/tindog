@@ -13,15 +13,22 @@ const dogs = [
         bio: "Yup, that's my owner. U can meet him if you want",
         hasBeenSwiped: false,
         hasBeenLiked: false
-    },
-    {
+    },{
         name: "Teddy",
         avatar: "images/dog-teddy.jpg",
         age: 30,
         bio: "How you doin?",
         hasBeenSwiped: false,
         hasBeenLiked: false
+    },{
+        name: "Scout",
+        avatar: "./images/scout.jpeg",
+        age: 91,
+        bio: "Old is gold 😉",
+        hasBeenSwiped: false,
+        hasBeenLiked: false
     }
 ]
 
 // Remember to export the data!
+export {dogs};
