@@ -71,3 +71,4 @@ const getDisplayDog = (dogsToRender) => {
 
 
 render();
+
