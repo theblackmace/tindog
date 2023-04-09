@@ -14,6 +14,10 @@ class Dog {
             </style>
             <h2 id="name-age">${this.name}, ${this.age}</h2>
             <p id="bio">${this.bio}</p>
+                <img src="" class="badge hide" id="badge">
+                <h2 id="name-age">${this.name}, ${this.age}</h2>
+                <p id="bio">${this.bio}</p>
+            </div>
         `;
     }
 }
